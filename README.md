@@ -1,2 +1,1 @@
-# Linux
-🐧 Personal repository for Linux
+# 🐧 Linux
