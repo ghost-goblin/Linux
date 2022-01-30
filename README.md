@@ -8,3 +8,9 @@ uname -a
 sudo apt install xrdp
 sudo systemctl enable xrdp
 ```
+
+### ☠️ Nmap
+```sh
+# Scan a single target
+nmap 10.129.86.241
+```
