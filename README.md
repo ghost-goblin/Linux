@@ -31,7 +31,7 @@ Anonymous FTP is a common way to get access to a server in order to view or down
 smbclient \\\\{target_IP}\\{SHARE_NAME}
 ```
 
-### Set a static IP address on your Linux machine
+### 🕸️ Set a static IP address on your Linux machine
 ```sh
 sudo nano /etc/network/interfaces
 
