@@ -18,8 +18,9 @@ nmap -sV 10.129.86.241
 # Operating System Detection
 nmap -O 10.129.86.241
 ```
-### On a vulnerable FTP server which allows anonymous access
+### 📁 On a vulnerable FTP server which allows anonymous access
 ```sh
 User:  anonymous
 Password:  anonymous@domain.com
 ```
+Anonymous FTP is a common way to get access to a server in order to view or download files that are publicly available.
