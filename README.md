@@ -13,4 +13,6 @@ sudo systemctl enable xrdp
 ```sh
 # Scan a single target
 nmap 10.129.86.241
+# Service Version Detection
+nmap -sV 10.129.86.241
 ```
