@@ -30,3 +30,18 @@ Anonymous FTP is a common way to get access to a server in order to view or down
 ```sh
 smbclient \\\\{target_IP}\\{SHARE_NAME}
 ```
+
+### Set a static IP address on your Linux machine
+```sh
+sudo nano /etc/network/interfaces
+
+## Add the following config: 
+auto eth0
+iface eth0 inet static
+        address 192.168.1.215/24
+        network 192.168.1.0
+        netmask 255.255.255.0
+        broadcast 192.168.1.255
+        gateway 192.168.1.254
+        dns-nameservers 192.168.1.254
+```
