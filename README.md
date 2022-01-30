@@ -24,3 +24,9 @@ User:  anonymous
 Password:  anonymous@domain.com
 ```
 Anonymous FTP is a common way to get access to a server in order to view or download files that are publicly available.
+
+### Accessing SMB Shares using `smbclient`
+
+```sh
+smbclient \\\\{target_IP}\\{SHARE_NAME}
+```
