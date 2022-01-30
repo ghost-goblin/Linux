@@ -18,3 +18,8 @@ nmap -sV 10.129.86.241
 # Operating System Detection
 nmap -O 10.129.86.241
 ```
+### On a vulnerable FTP server which allows anonymous access
+```sh
+User:  anonymous
+Password:  anonymous@domain.com
+```
