@@ -15,4 +15,6 @@ sudo systemctl enable xrdp
 nmap 10.129.86.241
 # Service Version Detection
 nmap -sV 10.129.86.241
+# Operating System Detection
+nmap -O 10.129.86.241
 ```
