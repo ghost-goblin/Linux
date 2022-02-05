@@ -47,3 +47,5 @@ iface eth0 inet static
         gateway 192.168.1.254
         dns-nameservers 192.168.1.254
 ```
+# 🌎 Web Reconnaissance
++ Enumerate port 80 with `gobuster`
