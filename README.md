@@ -17,6 +17,8 @@ nmap 10.129.86.241
 nmap -sV 10.129.86.241
 # Operating System Detection
 nmap -O 10.129.86.241
+# Run a detailed scan on open ports
+nmap 10.10.11.125 -sV -sC -p22,80,1337 -T4
 ```
 ### 📁 On a vulnerable FTP server which allows anonymous access
 ```sh
