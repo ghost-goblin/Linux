@@ -6,6 +6,7 @@ uname -a
 
 # Prints out a routing table
 netstat -r
+ip route
 
 # Install and enable rdp services
 sudo apt install xrdp
