@@ -8,6 +8,9 @@ uname -a
 netstat -rn
 ip route
 
+# Add route to routing table
+ip route add 192.168.222.52 via 10.175.30.1
+
 # Install and enable rdp services
 sudo apt install xrdp
 sudo systemctl enable xrdp
