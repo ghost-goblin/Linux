@@ -3,6 +3,8 @@
 ```sh
 # Returns useful information about the specific flavour of the OS and its kernel
 uname -a
+# Prints out a routing table
+netstat -r
 
 # Install and enable rdp services
 sudo apt install xrdp
