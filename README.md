@@ -60,3 +60,11 @@ iface eth0 inet static
 gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
 
 ```
+
+# ⚔️ XSS
+```js
+// Inside of input field the following command will help find XSS by creating a simple alert
+<script>alert(1)</script>
+
+```
+
