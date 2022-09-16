@@ -5,7 +5,7 @@
 uname -a
 
 # Prints out a routing table
-netstat -r
+netstat -rn
 ip route
 
 # Install and enable rdp services
