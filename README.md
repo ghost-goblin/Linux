@@ -56,3 +56,7 @@ iface eth0 inet static
 ```
 # 🌎 Web Reconnaissance
 + Enumerate port 80 with `gobuster`
+```sh
+gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
+
+```
