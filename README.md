@@ -1,5 +1,5 @@
 # 🕸️ Enumeration
-### ☠️ Nmap
+### ☠️ **Nmap**
 ```sh
 # Scan a single target
 nmap 10.129.86.241/24
@@ -15,11 +15,11 @@ nmap -sV -O -oN nmap_scan.txt 10.10.226.53
 # Treat all host as online (useful if scan is being blocked by firewall)
 nmap -sV -p- -Pn 10.10.226.53
 ```
-### 🚩 Banner Grabbing
+### 🚩 **Banner Grabbing**
 ```sh
 echo " " | nc -v 10.10.226.5 80
 ```
-### 📁 Directory Scanning
+### 📁 **Directory Scanning**
 + Enumerate web server on port 80 with `gobuster`
 ```sh
 gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
@@ -28,9 +28,9 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 - - -
 
 # 🌎 Web Hacking
-### **OWASP ZAP**
-        + [OWASP ZAP](https://www.zaproxy.org/)
-### ⚔️ XSS
+### 📡 **OWASP ZAP**
+[OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
+### ⚔️ **XSS**
 ```js
 // Inside of input field the following command will help find XSS by creating a simple alert
 <script>alert(1)</script>
