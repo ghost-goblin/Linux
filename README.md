@@ -1,6 +1,6 @@
 <div align='center'>
 
-# [Linux](README.md)
+# 🐧 [Linux](README.md)
 
 </div>
 
