@@ -9,7 +9,7 @@ nmap -sV 10.129.86.241
 nmap -O 10.129.86.241
 # Run a detailed scan on open ports
 nmap 10.10.11.125 -sV -sC -p22,80,1337 -T4
-# Scan a server for open ports, find what version of software is running and what OS it is and saving it to a file named nmap_scan.txt
+# Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt
 nmap -sV -O -oN nmap_scan.txt 10.10.226.53
 # Scan server for ALL open ports, find what version of software is running (will take more time)
 # Treat all host as online (useful if scan is being blocked by firewall)
