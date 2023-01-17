@@ -9,6 +9,7 @@
 ## System Management
 + Filesystem Hierarchy Standard (FHS)
   - /boot
+    -  Static Boot Files
   - /proc
   - /sys
   - /var
