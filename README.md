@@ -6,7 +6,7 @@
 
 + [PenTesting](pentest.md)
 
-1. System Management
+## System Management
 + Filesystem Hierarchy Standard (FHS)
   - /boot
   - /proc
