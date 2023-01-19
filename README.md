@@ -42,6 +42,15 @@ nmap -sV -O -oN nmap_scan.txt 10.10.226.53
 # Treat all host as online (useful if scan is being blocked by firewall)
 nmap -sV -p- -Pn 10.10.226.53
 ```
+
+### Metasploit Framework
+
+```sh
+# Initialiase the database
+sudo msfdb init
+msfconsole -q
+```
+
 ### 🚩 **Banner Grabbing**
 ```sh
 echo " " | nc -v 10.10.226.5 80
@@ -120,10 +129,3 @@ iface eth0 inet static
         dns-nameservers 192.168.1.254
 ```
 
-### Metasploit Framework
-
-```sh
-# Initialiase the database
-sudo msfdb init
-msfconsole -q
-```
