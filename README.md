@@ -90,7 +90,7 @@ Anonymous FTP is a common way to get access to a server in order to view or down
 
 - - -
 
-### Bash Command Reference
+### Lab Setup
 
 ```sh
 # Returns useful information about the specific flavour of the OS and its kernel
