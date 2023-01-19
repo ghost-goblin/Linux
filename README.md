@@ -46,7 +46,7 @@ nmap -sV -p- -Pn 10.10.226.53
 ### Metasploit Framework
 
 ```sh
-# Initialiase the database
+# Initialise the database
 sudo msfdb init
 msfconsole -q
 ```
