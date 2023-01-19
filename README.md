@@ -24,6 +24,35 @@
   - /mnt
   - /root
   - /tmp
+### 🖥️ Lab Setup
+
+```sh
+# Returns useful information about the specific flavour of the OS and its kernel
+uname -a
+
+# Prints out a routing table
+netstat -rn
+ip route
+
+# Add route to routing table
+ip route add 192.168.222.52 via 10.175.30.1
+
+# Install and enable rdp services
+sudo apt install xrdp
+sudo systemctl enable xrdp
+
+# Set a static IP address on your Linux machine
+sudo nano /etc/network/interfaces
+## Add the following config: 
+auto eth0
+iface eth0 inet static
+        address 192.168.1.215/24
+        network 192.168.1.0
+        netmask 255.255.255.0
+        broadcast 192.168.1.255
+        gateway 192.168.1.254
+        dns-nameservers 192.168.1.254
+```
 
 # 🕸️ Enumeration
 ### ☠️ **Nmap**
@@ -97,35 +126,4 @@ Password:  anonymous@domain.com
 ```
 Anonymous FTP is a common way to get access to a server in order to view or download files that are publicly available
 
-- - -
-
-### 🖥️ Lab Setup
-
-```sh
-# Returns useful information about the specific flavour of the OS and its kernel
-uname -a
-
-# Prints out a routing table
-netstat -rn
-ip route
-
-# Add route to routing table
-ip route add 192.168.222.52 via 10.175.30.1
-
-# Install and enable rdp services
-sudo apt install xrdp
-sudo systemctl enable xrdp
-
-# Set a static IP address on your Linux machine
-sudo nano /etc/network/interfaces
-## Add the following config: 
-auto eth0
-iface eth0 inet static
-        address 192.168.1.215/24
-        network 192.168.1.0
-        netmask 255.255.255.0
-        broadcast 192.168.1.255
-        gateway 192.168.1.254
-        dns-nameservers 192.168.1.254
-```
 
