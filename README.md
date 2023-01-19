@@ -90,7 +90,7 @@ Anonymous FTP is a common way to get access to a server in order to view or down
 
 - - -
 
-### Lab Setup
+### 🖥️ Lab Setup
 
 ```sh
 # Returns useful information about the specific flavour of the OS and its kernel
@@ -118,4 +118,12 @@ iface eth0 inet static
         broadcast 192.168.1.255
         gateway 192.168.1.254
         dns-nameservers 192.168.1.254
+```
+
+### Metasploit Framework
+
+```sh
+# Initialiase the database
+sudo msfdb init
+msfconsole -q
 ```
