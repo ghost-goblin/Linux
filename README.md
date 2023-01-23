@@ -4,6 +4,7 @@
 
 </div>
 
++ Check out the [Linux Guide](https://dr0.ch/docs/linux-guide-10ed.pdf)
 
 ## System Management
 + Filesystem Hierarchy Standard (FHS)
