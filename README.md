@@ -73,9 +73,7 @@ Serial Bus (USB)
 + GUID [globally unique identifier]
 + Partition Table (GPT)
 - Filesystem in Userspace (FUSE)
-- Redundant Array of
-+ Independent (or Inexpensive)
-+ Disks (RAID) levels
+- Redundant Array of Independent (or Inexpensive) Disks (RAID) levels
   + Striping
   + Mirroring
   + Parity
