@@ -9,9 +9,11 @@
 ## System Management
 + Filesystem Hierarchy Standard (FHS)
   - /boot
-    -  Static Boot Files
+    + Static Boot Files
   - /proc
+    + Kernel and processes information
   - /sys
+    + Hotplug hardware devices
   - /var
     + `/var/log/httpd` : Contains HTTP Request  / Response and error logs
     + `/var/log/cron`   : Events related to cron jobs are stored in this location
