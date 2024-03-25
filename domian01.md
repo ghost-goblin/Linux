@@ -1,4 +1,4 @@
-## [System Management](domain01.md)
+## [System Management](domian01.md)
 ### Filesystem Hierarchy Standard (FHS)
   - /boot
     + Static Boot Files
