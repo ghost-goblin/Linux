@@ -5,7 +5,7 @@
 
 </div>
 
-#### 1.1 Summarize Linux fundamentals
+## 1.1 Summarize Linux fundamentals
 ### Filesystem Hierarchy Standard (FHS)
   - /boot
     + Static Boot Files
@@ -86,5 +86,5 @@ Serial Bus (USB)
 - - -
 
 
-#### 1.2 Given a scenario, manage files and directories
+## 1.2 Given a scenario, manage files and directories
 ### File editing
