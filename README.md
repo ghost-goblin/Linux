@@ -6,7 +6,7 @@
 
 > Check out the [Linux Guide](https://dr0.ch/docs/linux-guide-10ed.pdf)
 
-## [System Management](domain01.md)
+## [System Management](domian01.md)
 ### Filesystem Hierarchy Standard (FHS)
   - /boot
     + Static Boot Files
