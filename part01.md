@@ -5,6 +5,7 @@
 </div>
 
 ## 1.0 [System Management](part01.md)
+#### 1.1 Summarize Linux fundamentals
 ### Filesystem Hierarchy Standard (FHS)
   - /boot
     + Static Boot Files
@@ -80,3 +81,10 @@ Serial Bus (USB)
 - lspci
 - lsusb
 - dmidecode
+
+
+- - -
+
+
+#### 1.2 Given a scenario, manage files and directories
+### File editing
