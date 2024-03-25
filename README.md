@@ -16,6 +16,7 @@
     + Hotplug hardware devices
   - /var
     + Variable files (logs, caches, mail spools, etc.)
+    + `cd /var/log/`
     + `/var/log/httpd`: Contains HTTP Request  / Response and error logs
     + `/var/log/cron`: Events related to cron jobs are stored in this location
     + `/var/log/auth.log` and `/var/log/secure` : Stores authentication related logs
