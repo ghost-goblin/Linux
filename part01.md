@@ -1,10 +1,10 @@
 <div align='center'>
 
 # 🐧 [Linux](README.md)
+## 1.0 [System Management](part01.md)
 
 </div>
 
-## 1.0 [System Management](part01.md)
 #### 1.1 Summarize Linux fundamentals
 ### Filesystem Hierarchy Standard (FHS)
   - /boot
